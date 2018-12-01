@@ -75,9 +75,13 @@ https://docs.emmet.io/
 
 
 git 프로그램 사용
-https://github.com/
+https://github.com/ > 원격 저장소 동기화
 
 terminal > New terminal 
+
+git init
+git add 
+git commit -m "intialize" 
 
 
 
