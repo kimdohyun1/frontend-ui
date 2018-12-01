@@ -80,7 +80,7 @@ https://github.com/ > 원격 저장소 동기화
 terminal > New terminal 
 
 git init
-git add 
+git add .
 git commit -m "intialize" 
 
 

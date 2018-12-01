@@ -1,0 +1,99 @@
+
+user@515-21 MINGW64 /d/projects (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+user@515-21 MINGW64 /d/projects (master)
+$ git commit -m "intialize"
+[master 8dae701] intialize
+ 16 files changed, 900 insertions(+), 1 deletion(-)
+ create mode 100644 01project/css/main.css
+ create mode 100644 01project/css/normalize.css
+ create mode 100644 01project/images/background.png
+ create mode 100644 01project/images/img01.png
+ create mode 100644 01project/index.html
+ create mode 100644 01project/js/main.js
+ create mode 100644 H5T01-00basicHTML.zip
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/.gitignore
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/00template/css/main.css
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/00template/css/normalize.css
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/00template/images/background.png
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/00template/images/img01.png
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/00template/index.html
+ create mode 100644 H5T01-00basicHTML/H5T01-5f8312b24d4349aece55618999b4b1c1297c5996/00template/js/main.js
+
+user@515-21 MINGW64 /d/projects (master)
+$ git commit -m "intialize"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+        modified:   "\355\224\204\353\241\234\352\267\270\353\236\250.txt"
+
+no changes added to commit
+
+user@515-21 MINGW64 /d/projects (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+user@515-21 MINGW64 /d/projects (master)
+$ git remote -v
+origin  https://github.com/kimdohyun1/frontend-ui.git (fetch)
+origin  https://github.com/kimdohyun1/frontend-ui.git (push)
+
+user@515-21 MINGW64 /d/projects (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+user@515-21 MINGW64 /d/projects (master)
+$ git add .
+
+user@515-21 MINGW64 /d/projects (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+user@515-21 MINGW64 /d/projects (master)
+$ git commit -m "test"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+user@515-21 MINGW64 /d/projects (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+user@515-21 MINGW64 /d/projects (master)
+$ git push -u origin master
+Enumerating objects: 22, done.
+Counting objects: 100% (22/22), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (16/16), done.
+Writing objects: 100% (19/19), 3.06 MiB | 2.19 MiB/s, done.
+Total 19 (delta 5), reused 0 (delta 0)
+remote: Resolving deltas: 100% (5/5), completed with 2 local objects.
+To https://github.com/kimdohyun1/frontend-ui.git
+   ed081f4..8dae701  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+user@515-21 MINGW64 /d/projects (master)
+$
