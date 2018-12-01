@@ -1,0 +1,84 @@
+프로 그램 : visual studio code, git 설치하기
+
+html:5 누르고 tab키 or Enter 키
+
+태그 입력 후 Tab = 자동완성
+
+semantic  tag : 
+
+<nav id="menu">
+     <ul>
+         <li>메뉴</li>
+     </ul>
+ </nav>
+
+<nav></nav>
+<header></header>
+<footer></footer>
+<section></section>
+<article></article>
+<aside></aside>
+
+--------------------
+nav>ul>li 입력 후 tab 키 누르면
+
+<nav>
+    <ul>
+        <li></li>
+    </ul>
+</nav>
+---------------------
+nav>ul>li*3
+
+<nav>
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+
+------------------
+nav#menu>ul>li*3
+
+<nav id="menu">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav>
+
+-----------------
+nav#menu>ul>li{메뉴}*3
+
+<nav id="menu">
+    <ul>
+        <li>메뉴</li>
+        <li>메뉴</li>
+        <li>메뉴</li>
+    </ul>
+</nav>
+-----------------------
+nav#menu>ul>li{메뉴$}*3
+
+<nav id="menu">
+    <ul>
+        <li>메뉴1</li>
+        <li>메뉴2</li>
+        <li>메뉴3</li>
+    </ul>
+</nav>
+
+"emmet" 기능  검색하기
+https://docs.emmet.io/
+
+
+git 프로그램 사용
+https://github.com/
+
+terminal > New terminal 
+
+
+
+
