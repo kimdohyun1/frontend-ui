@@ -1,3 +1,7 @@
+/* Global style */
+* {
+    font-family: 'Nanum Gothic', sans-serif;/*모두*/
+}
 a{
     color: #000;
     text-decoration: none;
@@ -11,15 +15,21 @@ ul{
 li{
     display: inline-block;  /*인라인화 - 메뉴를 세로로*/
 }
-
+/*custom style*/
+#wrapper{
+    max-width: 1100px;
+    width: 100%; 
+    margin: 0 auto;
+}
 #header {
     text-align: center;
     margin:  60px 0;/* 제목영역 */
 }
 
 #header a {/*제목 아래 a*/
-    font-size: 40px;
-    color: #000;
+    font-size: 46px;
+    font-weight: bold;
+    color: #ffffff;
     text-decoration: none;
 }
 
@@ -32,24 +42,56 @@ li{
 #nav ul.menus{
     float: left;
 }
+#nav ul.menus li{
+    padding: 20px;
+}
+
+#nav ul.menus li a{
+    color: #ffffff;
+}
+#nav ul.menus li.active{
+    background-color: #ffffff;
+    color: #000000;
+}
+#nav ul.icons li a{
+    color: #ffffff;
+    padding: 20px;
+}
+#nav {
+    background-color: rgb(55,55,55);
+    /*height: 60px;*/
+    overflow: hidden;
+}
+#nav ul.menus li.active a{
+    color: #000000;
+}
+
 #nav ul.icons{
     float: right;
 }
-
+#main .featured p{
+    margin: 35px 0;
+}
 
 #main .featured header h2{
     text-align: center;
-    padding: 50px 40px 0;
+    padding: 20px 0 40px;
+}
+#main .featured header h2 a{
+    font-size: 30px;
 }
 
 #main .featured header a img{
 width: 100%;
+ 
 }
 #footer{
     display: flex;
+    background-color: #dddddd;
 }
 #footer .contact, #footer .info{
     flex: 1; /* 1 or 2 비율 */
+    padding: 30px;
 }
 
 #footer .contact .inputs{
@@ -67,6 +109,7 @@ width: 100%;
     border: solid 3px gray;
     /*margin: 0 0 30px 0;*/
     margin-bottom: 30px;
+    background-color: #dddddd;
 }
 
 #footer .contact .inputs textarea{
@@ -74,12 +117,14 @@ width: 100%;
     width: 100%;
     border: solid 3px gray;/* rgb(0,0,0) rgba(0,0,0,0)*/
     margin-bottom: 30px;
+    background-color: #dddddd;
 }
 
 #footer .contact .submit input{
     border: solid 3px #333333;/* rgb(0,0,0) rgba(0,0,0,0)*/
     background-color: rgb(255,255,255);
     padding: 10px 5px;
+    background-color: #dddddd;
 }
 
 #footer .info section{
@@ -103,4 +148,23 @@ width: 100%;
 }
 #copyright p{
     color: #dddddd;
+}
+#copyright p a{
+    color: #cccccc;
+}
+.bg{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width:  100vw;/*view width 전체에 대한 비율*/
+    height: 100vh;/*view height*/
+    background: url(../images/background.png) no-repeat fixed center;
+    z-index: -1;
+    opacity: .4;
+}
+
+#main .featured{
+    background-color: #fff;
+    padding: 40px;
+
 }
